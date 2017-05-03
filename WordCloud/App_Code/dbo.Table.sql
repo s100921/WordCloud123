@@ -1,0 +1,10 @@
+﻿CREATE TABLE USERREGISTRATION
+(
+	[Username] NVARCHAR(50) NOT NULL PRIMARY KEY, 
+    [Date of Birth] NVARCHAR(100) NOT NULL, 
+    [Email Address] NVARCHAR(100) NOT NULL, 
+    [Password] NVARCHAR(100) NOT NULL, 
+    [Confirm Password] NVARCHAR(100) NULL
+	
+	
+)
